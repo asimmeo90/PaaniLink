@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaaniLink | Hydrant Operator Dashboard</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body data-role="operator">
+
+    <nav class="navbar">
+        <div class="logo">PaaniLink</div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../login.html">Logout</a>
+        </div>
+    </nav>
+
+    <section class="auth-section">
+        <div class="auth-card">
+
+            <h1>Hydrant Operator Dashboard</h1>
+            <p>Welcome to PaaniLink Operator Portal!</p>
+
+            <h3>Manage Approved Bookings</h3>
+            <p>Assign available tankers and drivers to approved bookings.</p>
+
+            <div id="operatorBookingList">
+                <p>Loading approved bookings...</p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="../js/guard.js"></script>
+<script src="../js/operator.js"></script>
+<script src="../js/logout.js"></script>
+
+</body>
+</html>
