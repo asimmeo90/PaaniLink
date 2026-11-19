@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "name": "asim",
+      "phone": "03144343912",
+      "address": "k 206",
+      "email": "asim@paani.com",
+      "password": "asimmeo",
+      "role": "customer",
+      "id": "k4neDwNxk5s"
+    },
+    {
+      "name": "Ali",
+      "phone": "03000000000",
+      "address": "Karachi",
+      "email": "officer@paani.com",
+      "password": "Officer123",
+      "role": "officer",
+      "id": "DN_qu_dc2gE"
+    },
+    {
+      "name": "sara",
+      "phone": "03000000001",
+      "address": "Karachi",
+      "email": "operator@paani.com",
+      "password": "Operator123",
+      "role": "operator",
+      "id": "OP001"
+    },
+    {
+      "name": "Ahmed Driver",
+      "phone": "03000000033",
+      "address": "Karachi",
+      "email": "ahmed@paani.com",
+      "password": "Driver123",
+      "role": "driver",
+      "id": "D001"
+    },
+    {
+      "name": "Usman Driver",
+      "phone": "03000000033",
+      "address": "Karachi",
+      "email": "usman@paani.com",
+      "password": "Driver123",
+      "role": "driver",
+      "id": "D002"
+    },
+    {
+      "name": "Wasay",
+      "phone": "03000000099",
+      "address": "Karachi",
+      "email": "admin@paani.com",
+      "password": "Admin123",
+      "role": "admin",
+      "id": "AD001"
+    }
+  ],
+  "bookings": [
+    {
+      "customerId": "k4neDwNxk5s",
+      "customerName": "asim",
+      "waterType": "commercial",
+      "tankerSize": "2000",
+      "deliveryAddress": "k 75",
+      "contactNumber": "03144343912",
+      "status": "confirmed",
+      "bookingDate": "2026-11-19T09:04:13.999Z",
+      "id": "jfkxF3EwNko",
+      "assignedTanker": "TK-101",
+      "assignedTankerId": "T001",
+      "assignedDriver": "Ali Ahmed",
+      "assignedDriverId": "D001",
+      "customerFeedbackDate": "2026-11-19T14:18:11.949Z"
+    },
+    {
+      "customerId": "k4neDwNxk5s",
+      "customerName": "asim",
+      "waterType": "subsidized",
+      "tankerSize": "3000",
+      "deliveryAddress": "k 75",
+      "contactNumber": "03173434219",
+      "status": "rejected",
+      "bookingDate": "2026-11-19T09:19:24.467Z",
+      "id": "Unl_cHxjd6o"
+    },
+    {
+      "customerId": "k4neDwNxk5s",
+      "customerName": "asim",
+      "waterType": "subsidized",
+      "tankerSize": "3000",
+      "deliveryAddress": "k75",
+      "contactNumber": "03144343912",
+      "status": "confirmed",
+      "bookingDate": "2026-11-19T14:00:55.591Z",
+      "id": "QpKZ4Pq5NXw",
+      "assignedTanker": "TK-102",
+      "assignedTankerId": "T002",
+      "assignedDriver": "Usman Khan",
+      "assignedDriverId": "D002",
+      "customerFeedbackDate": "2026-11-19T14:34:06.750Z"
+    },
+    {
+      "customerId": "k4neDwNxk5s",
+      "customerName": "asim",
+      "waterType": "commercial",
+      "tankerSize": "1000",
+      "deliveryAddress": "k106",
+      "contactNumber": "03000000001",
+      "status": "confirmed",
+      "bookingDate": "2026-11-19T14:18:11.943Z",
+      "id": "Igt1MI_hbM0",
+      "assignedTanker": "TK-103",
+      "assignedTankerId": "T003",
+      "assignedDriver": "Ali Ahmed",
+      "assignedDriverId": "D001",
+      "customerFeedbackDate": "2026-11-19T14:34:21.012Z"
+    },
+    {
+      "customerId": "k4neDwNxk5s",
+      "customerName": "asim",
+      "waterType": "commercial",
+      "tankerSize": "1000",
+      "deliveryAddress": "k75",
+      "contactNumber": "03003452368",
+      "status": "confirmed",
+      "bookingDate": "2026-11-19T14:18:40.125Z",
+      "id": "lblgwV3cfVk",
+      "assignedTanker": "TK-103",
+      "assignedTankerId": "T003",
+      "assignedDriver": "Ali Ahmed",
+      "assignedDriverId": "D001",
+      "customerFeedbackDate": "2026-11-19T14:35:02.770Z"
+    }
+  ],
+  "tankers": [
+    {
+      "id": "T001",
+      "tankerNumber": "TK-101",
+      "capacity": 2000,
+      "status": "available"
+    },
+    {
+      "id": "T002",
+      "tankerNumber": "TK-102",
+      "capacity": 3000,
+      "status": "available"
+    },
+    {
+      "id": "T003",
+      "tankerNumber": "TK-103",
+      "capacity": 1000,
+      "status": "available"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "D001",
+      "name": "Ali Ahmed",
+      "phone": "03000000011",
+      "status": "available"
+    },
+    {
+      "id": "D002",
+      "name": "Usman Khan",
+      "phone": "03000000022",
+      "status": "available"
+    }
+  ],
+  "zones": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

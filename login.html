@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaaniLink | Login</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PaaniLink</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <section class="auth-section">
+        <div class="auth-card">
+
+            <h1>Welcome Back!</h1>
+            <p>Login to your PaaniLink account</p>
+
+            <form id="loginForm">
+
+                <label for="role">Select Your Role</label>
+                <select id="role" required>
+                    <option value="">Choose your role</option>
+                    <option value="customer">Customer</option>
+                    <option value="officer">Zone Officer</option>
+                    <option value="operator">Hydrant Operator</option>
+                    <option value="driver">Driver</option>
+                    <option value="admin">Administrator</option>
+                </select>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email"
+                    placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password"
+                    placeholder="Enter your password" required>
+
+                <button type="submit" class="auth-btn">Login</button>
+
+            </form>
+
+            <p class="auth-switch">
+                Don't have an account?
+                <a href="register.html">Register here</a>
+            </p>
+
+        </div>
+    </section>
+    <script src="js/auth.js"></script>
+</body>
+</html>
